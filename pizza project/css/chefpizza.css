@@ -9,6 +9,16 @@ body {
 
     height: 100px;
     width: 200px;
+    border-radius: 200px;
+
+}
+
+.classimg:hover{
+
+    height: 120px;
+    width: 220px;
+    border-radius: 200px;
+    transition: 0.5s;
 
 }
 
@@ -25,6 +35,7 @@ body {
     margin: 0%;
     overflow: hidden;
     font-family: cursive;
+    border-radius: 200px;
 
 }
 
@@ -32,7 +43,9 @@ body {
 
     background-color: rgb(126, 61, 4);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 25px;
+    border-radius: 200px;
+    transition: 0.5s;
 
 }
 
@@ -69,6 +82,7 @@ h2 {
 h2:hover {
 
     color: rgb(151, 75, 9);
+    transition: 0.6s;
 
 }
 
@@ -86,7 +100,19 @@ h2:hover {
     padding-left: 80px;
     padding-right: 50px;
     display: block;
+    border-radius: 240px;
 
+}
+
+.classimg2:hover{
+
+    height: 640px;
+    width: 840px;
+    padding-left: 70px;
+    padding-right: 40px;
+    display: block;
+    border-radius: 200px;
+    transition: 0.5s;
 }
 
 .classdiv1 ul {
@@ -107,6 +133,7 @@ h2:hover {
 
     color: rgb(59, 80, 37);
     font-style: italic;
+    transition: 0.5s;
 }
 
 .classdiv2 {
@@ -138,8 +165,17 @@ h2:hover {
     background-color: rgb(59, 80, 37) ;
     height:420px;
     width: 355px;
-    
+    border-radius: 60px;
 
+}
+
+.smalldiv1:hover{
+
+    background-color: rgb(59, 80, 37) ;
+    height: 445px;
+    width: 375px;
+    border-radius: 50px;
+    transition: 0.7s;
 }
 
 .smalldiv1 h1{
@@ -154,6 +190,7 @@ h2:hover {
 .smalldiv1 h1:hover{
 
     font-size: 25px; 
+    transition: 0.5s;
 }
 
 .smalldiv1 img{
@@ -162,7 +199,18 @@ h2:hover {
     width: 260px;
     margin-left: 25px;
     margin-top: 10px;
+    border-radius: 180px;
 
+}
+
+.smalldiv1 img:hover{
+
+    height: 320px;
+    width: 280px;
+    margin-left: 20px;
+    margin-top: 5px;
+    border-radius: 80px;
+    transition: 0.7s;
 }
 
 .smalldiv1 a{
@@ -179,6 +227,7 @@ h2:hover {
 .smalldiv1 a:hover{
 
     color: rgb(136, 70, 46);
+    transition: 0.5s;
 
 }
 
@@ -195,6 +244,16 @@ h2:hover {
     background-color: rgb(59, 80, 37);
     height:420px;
     width: 355px;
+    border-radius: 60px;
+}
+
+.smalldiv2:hover{
+
+    background-color: rgb(59, 80, 37) ;
+    height: 445px;
+    width: 375px;
+    border-radius: 50px;
+    transition: 0.7s;
 
 }
 
@@ -209,6 +268,7 @@ h2:hover {
 .smalldiv2 h1:hover{
 
     font-size: 25px; 
+    transition: 0.5s;
 }
 
 .smalldiv2 img{
@@ -217,7 +277,18 @@ h2:hover {
     width: 260px;
     margin-left: 25px;
     margin-top: 10px;
+    border-radius: 180px;
 
+}
+
+.smalldiv2 img:hover{
+
+    height: 320px;
+    width: 280px;
+    margin-left: 20px;
+    margin-top: 5px;
+    border-radius: 80px;
+    transition: 0.7s;
 }
 
 .smalldiv2 a{
@@ -234,6 +305,7 @@ h2:hover {
 .smalldiv2 a:hover{
 
     color: rgb(136, 70, 46);
+    transition: 0.5s;
 
 }
 
@@ -250,6 +322,16 @@ h2:hover {
     background-color: rgb(59, 80, 37);
     height:420px;
     width: 355px;
+    border-radius: 60px;
+}
+
+.smalldiv3:hover{
+
+    background-color: rgb(59, 80, 37) ;
+    height: 445px;
+    width: 375px;
+    border-radius: 50px;
+    transition: 0.7s;
 }
 
 .smalldiv3 h1{
@@ -263,6 +345,7 @@ h2:hover {
 .smalldiv3 h1:hover{
 
     font-size: 25px; 
+    transition: 0.5s;
 }
 
 .smalldiv3 img{
@@ -271,7 +354,18 @@ h2:hover {
     width: 260px;
     margin-left: 25px;
     margin-top: 10px;
+    border-radius: 180px;
 
+}
+
+.smalldiv3 img:hover{
+
+    height: 320px;
+    width: 280px;
+    margin-left: 20px;
+    margin-top: 5px;
+    border-radius: 80px;
+    transition: 0.7s;
 }
 
 .smalldiv3 a{
@@ -295,6 +389,18 @@ h2:hover {
 
     color: rgb(63, 121, 63);
 
+}
+
+.classlink2{
+
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    margin: 15px;
+    text-align: center;
+    display: flex;
+    display: block;
+    
 }
 
 footer{
@@ -325,26 +431,96 @@ footer{
     border-radius: 50%;
 }
 
-.classlink2{
+.socialIcons a i{
 
+    font-size: 2em;
     color: black;
-    text-decoration: none;
-    padding: 20px;
-    margin: 15px;
-    text-align: center;
-    display: flex;
-    display: block;
+    opacity: 0.9;
+
+}
+
+.socialIcons a:hover{
+
+    background: #111;
+    transition: 0.5s;
+
+}
+
+.socialIcons a i:hover{
+
+    color: #fff;
+    transition: 0.5s;
+
+}
+
+.footerNav{
     
-}
+    margin: 30px 0;
 
-.classimg3 {
-
-    height: 100px;
-    width: 200px;
 
 }
+
+.footerNav ul{
+
+list-style-type: none;
+display: flex;
+justify-content: center;
+
+}
+
+.footerNav ul li a{
+
+    color: rgba(170, 138, 78, 0.8);
+    margin: 25px;
+    font-size: 2em;
+    text-decoration: none;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+
+.footerNav ul li a:hover{
+
+    color: rgba(145, 114, 59, 0.8);
+    margin: 40px;
+    font-size: 2.1em;
+    text-decoration: none;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footerBottom{
+
+    background: rgb(95, 89, 45);
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.text{
+
+    overflow: hidden;
+    font-size: 3.6rem;
+    font-weight: 700;
+    border-right: 0.15em solid orange;
+    white-space: nowrap;
+    animation: typing 4s steps(40, end) infinite;
+
+}
+
 *{
-    padding: 0;
-    margin: 0;
+
     box-sizing: border-box;
+}
+
+@keyframes typing{
+from{
+    width: 0;
+}
+
+to{
+    width: 100%;
+}
 }
