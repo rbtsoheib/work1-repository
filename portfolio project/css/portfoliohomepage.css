@@ -154,16 +154,19 @@ button:hover{
     float: center;
     /* margin-left: 120px; */
     margin-right: 100px;
+    padding-top: 20px;
     padding-left: 100px ;
     padding-right: 100px;
+    background-color: rgb(3, 110, 110);
+
 }
 
 .container1 h1{
 
     text-align: left;
     margin-left: 90px;
-    margin-top: 50px;
-    font-size: 65px;
+    margin-top: 20px;
+    font-size: 55px;
     font-family: serif;
     color: rgb(15, 66, 66);
 }
@@ -187,6 +190,59 @@ button:hover{
 
     color: rgb(44, 66, 99);
     text-align: left;
-    margin-left: 170px;
-    margin-top: 30px;
+    margin-left: 120px;
+    margin-top: 10px;
+    font-size: 25px;
+
+}
+
+.different {
+
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-style: italic;
+
+}
+
+span:hover{
+
+    font-size: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    transition: 1s;
+    color: rgb(27, 54, 94) ;
+
+}
+
+.container1 img{
+
+    height: 355px;
+    width: 800px;
+    padding-left: 80px;
+    padding-right: 20px;
+    display: block;
+    border-radius: 240px;
+
+}
+
+.container1 img:hover{
+
+    height: 355px;
+    width: 850px;
+    padding-left: 80px;
+    padding-right: 5px;
+    display: block;
+    border-radius: 270px;
+    transition: 0.7s;
+
+}
+
+.download {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
 }

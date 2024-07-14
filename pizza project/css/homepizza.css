@@ -283,7 +283,8 @@ justify-content: center;
     font-weight: 700;
     border-right: 0.15em solid orange;
     white-space: nowrap;
-    animation: typing 4s steps(40, end) infinite;
+    /* animation: typing 4s steps(40, end) ; */
+    animation: typing 4s steps(40, end) normal;
 
 }
 
