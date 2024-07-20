@@ -246,3 +246,99 @@ span:hover{
     text-align: center;
     
 }
+
+footer{
+
+    background-color: rgb(61, 107, 192);
+
+}
+
+.footerContainer{
+
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.socialIcons{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.socialIcons a{
+
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(56, 51, 133);
+    border-radius: 50%;
+}
+
+.socialIcons a i{
+
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+
+}
+
+.socialIcons a:hover{
+
+    background: #111;
+    transition: 0.5s;
+
+}
+
+.socialIcons a i:hover{
+
+    color: #fff;
+    transition: 0.5s;
+
+}
+
+.footerNav{
+    
+    margin: 30px 0;
+
+
+}
+
+.footerNav ul{
+
+list-style-type: none;
+display: flex;
+justify-content: center;
+
+}
+
+.footerNav ul li a{
+
+    color: rgba(97, 126, 221, 0.8);
+    margin: 25px;
+    font-size: 2em;
+    text-decoration: none;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+
+.footerNav ul li a:hover{
+
+    color: rgba(41, 97, 129, 0.8);
+    margin: 40px;
+    font-size: 2.1em;
+    text-decoration: none;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footerBottom{
+
+    background: rgb(40, 91, 104);
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+
+}
