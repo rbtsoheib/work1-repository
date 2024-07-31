@@ -150,6 +150,14 @@ body{
 
 }
 
+.firstDiv a:hover{
+
+    text-decoration: none;
+    color: white;
+    transition: 0.7s;
+
+}
+
 .secondDiv{
 
     display: flex;
